@@ -33,6 +33,7 @@ const HomePage = () => {
 
         {products.length === 0 && (
           <Text fontSize={"xl"} color={"gray.500"} fontWeight={"bold"}>
+            No products available.{" "}
             <Link to={"/create"}>
               <Text
                 as="span"

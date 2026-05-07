@@ -7,7 +7,7 @@ export const useConvenientStore = create((set) => ({
     if (!newProduct.name || !newProduct.price || !newProduct.image) {
       return { success: false, message: "All fields are required." };
     }
-    const res = await fetch("api/products", {
+    const res = await fetch("/api/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -19,7 +19,7 @@ export const useConvenientStore = create((set) => ({
     return { success: true, message: "Product created successfully." };
   },
   fetchProducts: async () => {
-    const res = await fetch("api/products");
+    const res = await fetch("/api/products");
     const data = await res.json();
     set({ products: data.data });
   },
@@ -42,7 +42,7 @@ export const useConvenientStore = create((set) => ({
     return { success: true, message: data.message };
   },
   deleteProduct: async (pid) => {
-    const res = await fetch(`api/products/${pid}`, {
+    const res = await fetch(`/api/products/${pid}`, {
       method: "DELETE",
     });
     const data = await res.json();

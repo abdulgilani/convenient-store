@@ -16,6 +16,7 @@ import {
   VStack,
   Input,
   Button,
+  Text,
 } from "@chakra-ui/react";
 import { EditIcon, DeleteIcon } from "@chakra-ui/icons";
 import { useConvenientStore } from "../store/product";
