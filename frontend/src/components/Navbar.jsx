@@ -1,21 +1,21 @@
 import {
-  Card,
+  Container,
   Flex,
   Text,
   HStack,
   Button,
   useColorMode,
 } from "@chakra-ui/react";
+
 import { Link } from "react-router-dom";
 
-import { PlusSquareIcon } from "@chakra-ui/icons";
-import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { PlusSquareIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Card maxW={"100%"} px={4}>
+    <Container maxW={"100%"} px={4}>
       <Flex
         h={16}
         alignItems={"center"}
@@ -30,7 +30,7 @@ const Navbar = () => {
           fontWeight={"bold"}
           textTransform={"uppercase"}
           textAlign={"center"}
-          bgGradient="linear(to-r yellow.400, pink.400)"
+          bgGradient="linear(to-r, blue.400, pink.400)"
           bgClip="text"
         >
           <Link to={"/"}>Convenient Store 🛒</Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
           </Button>
         </HStack>
       </Flex>
-    </Card>
+    </Container>
   );
 };
 
