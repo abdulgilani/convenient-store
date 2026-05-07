@@ -69,7 +69,10 @@ const CreatePage = () => {
               placeholder="Product Price"
               value={newProduct.price}
               onChange={(e) =>
-                setNewProduct({ ...newProduct, price: e.target.value })
+                setNewProduct({
+                  ...newProduct,
+                  price: parseFloat(e.target.value),
+                })
               }
               name="price"
               type="number"
