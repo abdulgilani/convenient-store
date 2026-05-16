@@ -2,6 +2,15 @@
 
 ## Table of Contents
 
+- [Convenient Store](#convenient-store)
+  - [Table of Contents](#table-of-contents)
+  - [Online Access](#online-access)
+  - [About the Project](#about-the-project)
+  - [Tech Stacks](#tech-stacks)
+  - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+
 ---
 
 ## Online Access
