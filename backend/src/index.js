@@ -9,6 +9,7 @@ import productRoutes from "./routes/product.routes.js";
 const PORT = process.env.PORT || 5000;
 
 const app = express();
+const __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "development") {
   app.use(
