@@ -1,0 +1,21 @@
+{
+  "name": "convenient-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulgilani/convenient-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulgilani/convenient-store/issues"
+  },
+  "homepage": "https://github.com/abdulgilani/convenient-store#readme",
+  "description": ""
+}
