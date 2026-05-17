@@ -10,6 +10,7 @@
   - [Setup](#setup)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+  - [Repository Structure](#repository-structure)
 
 ---
 
@@ -83,3 +84,28 @@ npm run start
 ```
 
 Visit http://localhost:5000/api
+
+## Repository Structure
+
+```
+convenient-store
+├── README.md
+├── backend
+│   ├── .env.example
+│   └── src
+│       ├── /config                                 # DB Configs
+│       ├── /controller                             # Product Controllers
+│       ├── index.js                                # Main express server entry
+│       ├── /model                                  # Product Model
+│       └── /routes                                 # Product Routes
+├── frontend
+│   ├── index.html
+│   ├── src
+│   │   ├── App.jsx                                 # Main Routing Setup
+│   │   ├── /components                             # UI Components (Navbar, ProductCard)
+│   │   ├── main.jsx                                # React Entry Point
+│   │   ├── /pages                                  # App Pages (CreatePage, HomePage)
+│   │   └── /store                                  # State Management Product Store
+│   └── vite.config.js
+└── package.json
+```

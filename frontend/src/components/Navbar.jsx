@@ -10,7 +10,6 @@ import {
 import { Link } from "react-router-dom";
 
 import { PlusSquareIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
-
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
