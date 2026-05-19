@@ -2,27 +2,38 @@
 
 ## Table of Contents
 
-- [Convenient Store](#convenient-store)
-  - [Table of Contents](#table-of-contents)
-  - [Online Access](#online-access)
-  - [About the Project](#about-the-project)
-  - [Tech Stacks](#tech-stacks)
-  - [Setup](#setup)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Repository Structure](#repository-structure)
+<!-- prettier-ignore-start -->
 
----
+- [About the Project](#about-the-project)<br>
+- [Demo](#demo)<br>
+- [Tech Stacks](#tech-stacks)<br>
+- [Setup](#setup)<br>
+  - [Prerequisites](#prerequisites)<br>
+  - [Installation](#installation)<br>
+- [Repository Structure](#repository-structure)<br>
 
-## Online Access
-
-You can access the app [here](https://convenient-store.onrender.com/).
+<!-- prettier-ignore-end -->
 
 ---
 
 ## About the Project
 
+<picture>
+<source media="(min-width: 1280px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkDesktop.png">
+<source media="(min-width: 1280px)" srcset="./assets/images/Desktop.png">
+<source media="(min-width: 768px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkTablet.png">
+<source media="(min-width: 768px)" srcset="./assets/images/Tablet.png">
+<source media="(prefers-color-scheme: dark)" srcset="./assets/images/DarkMobile.png">
+<img alt="Convenient Store" src="/assets/images/Mobile.png">
+</picture>
+
 I have built a product store app called Convenient Store using MERN stack. Despite the fact that there are product store that exists, the idea of this product store naming came from the fact that this is a convenient way to get product while relaxing at your home.
+
+---
+
+## Demo
+
+You can access the app [here](https://convenient-store.onrender.com/).
 
 ---
 

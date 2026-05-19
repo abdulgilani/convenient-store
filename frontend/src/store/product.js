@@ -15,7 +15,7 @@ export const useConvenientStore = create((set) => ({
       body: JSON.stringify(newProduct),
     });
     const data = await res.json();
-    set((state) => ({ products: [...state.products, data] }));
+    set((state) => ({ products: [...state.products, data.data] }));
     return { success: true, message: "Product created successfully." };
   },
   fetchProducts: async () => {
