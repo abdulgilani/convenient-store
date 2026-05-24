@@ -19,9 +19,9 @@
 ## About the Project
 
 <picture>
-<source media="(min-width: 1280px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkDesktop.png">
-<source media="(max-width: 1279px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkTablet.png">
-<source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkMobile.png">
+<source media="(prefers-color-scheme: dark) and (min-width: 1280px)" srcset="./assets/images/DarkDesktop.png">
+<source media="(prefers-color-scheme: dark) and (min-width: 768px)" srcset="./assets/images/DarkTablet.png">
+<source media="(prefers-color-scheme: dark)" srcset="./assets/images/DarkMobile.png">
 
 <source media="(min-width: 1280px)" srcset="./assets/images/Desktop.png">
 <source media="(min-width: 768px)" srcset="./assets/images/Tablet.png">
