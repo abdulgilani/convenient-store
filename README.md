@@ -20,10 +20,11 @@
 
 <picture>
 <source media="(min-width: 1280px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkDesktop.png">
-<source media="(min-width: 1280px) and (prefers-color-scheme: light)" srcset="./assets/images/Desktop.png">
 <source media="(min-width: 768px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkTablet.png">
-<source media="(min-width: 768px) and (prefers-color-scheme: light)" srcset="./assets/images/Tablet.png">
 <source media="(prefers-color-scheme: dark)" srcset="./assets/images/DarkMobile.png">
+
+<source media="(min-width: 1280px)" srcset="./assets/images/Desktop.png">
+<source media="(min-width: 768px)" srcset="./assets/images/Tablet.png">
 <img alt="Convenient Store" src="./assets/images/Mobile.png">
 </picture>
 
