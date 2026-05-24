@@ -23,8 +23,8 @@
 <source media="(min-width: 1280px) and (prefers-color-scheme: light)" srcset="./assets/images/Desktop.png">
 <source media="(min-width: 768px) and (prefers-color-scheme: dark)" srcset="./assets/images/DarkTablet.png">
 <source media="(min-width: 768px) and (prefers-color-scheme: light)" srcset="./assets/images/Tablet.png">
-<source media="(prefers-color-scheme: dark)" srcset="./assets/images/DarkMobile.png">
-<img alt="Convenient Store" src="/assets/images/Mobile.png">
+<source media="(prefers-color-scheme: dark)" srcset="/assets/images/DarkMobile.png">
+<img alt="Convenient Store" src="./assets/images/Mobile.png">
 </picture>
 
 I have built a product store app called Convenient Store using MERN stack. Despite the fact that there are product store that exists, the idea of this product store naming came from the fact that this is a convenient way to get product while relaxing at your home.
